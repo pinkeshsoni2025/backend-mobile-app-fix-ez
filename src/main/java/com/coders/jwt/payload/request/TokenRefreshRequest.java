@@ -6,11 +6,11 @@ public class TokenRefreshRequest {
   @NotBlank
   private String refreshToken;
 
-  public String getRefreshToken() {
+  public String getRefrashToken() {
     return refreshToken;
   }
 
-  public void setRefreshToken(String refreshToken) {
+  public void setRefrashToken(String refreshToken) {
     this.refreshToken = refreshToken;
   }
 }

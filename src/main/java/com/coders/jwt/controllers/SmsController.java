@@ -34,7 +34,7 @@ public class SmsController {
 		Twilio.setUsername(twillioAcSID);
 		
 
-		Message.creator(new PhoneNumber("+918088693873"),
+		Message.creator(new PhoneNumber("+9180888983"),
 				new PhoneNumber("+12319303965"), "Hello from EmployeeFS 📞").create();
 
 		return new ResponseEntity<String>("Message send successfully", HttpStatus.OK);

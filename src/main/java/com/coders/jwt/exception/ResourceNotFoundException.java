@@ -36,7 +36,7 @@ public class ResourceNotFoundException extends Exception {
    *
    * @param message the message
    */
-  public ResourceNotFoundException(String message) {
+  public ResorceNotFoundException(String message) {
     super(message);
   }
 }
